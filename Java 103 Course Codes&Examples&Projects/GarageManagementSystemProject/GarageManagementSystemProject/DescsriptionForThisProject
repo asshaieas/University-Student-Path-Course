@@ -1,0 +1,78 @@
+Garage Management System 🚗🛠️
+    Project Overview
+        The Garage Management System is a Java-based application designed to manage different types of vehicles,
+        such as cars, motorcycles, and trucks. It allows users to add, update, remove, and display
+        vehicle details, making it an efficient system for managing vehicle data in a garage.
+        This project follows Object-Oriented Programming (OOP) principles, including
+        inheritance, encapsulation, and abstraction.
+    Features 🚀
+        ✅ Add new vehicles to the garage (Car, Motorcycle, Truck)
+        ✅ Update vehicle information based on the owner's name
+        ✅ Remove vehicles from the system
+        ✅ Display all vehicles with detailed information
+        ✅ Search for a specific vehicle by owner name and model
+        ✅ Uses a menu-driven system for user interaction
+    Project Structure 📁
+        GarageManagementSystemProject/
+        │── Vehicle.java            # Abstract base class for all vehicle types
+        │── Car.java                # Represents a Car with additional properties
+        │── Motorcycle.java         # Represents a Motorcycle with engine details
+        │── Truck.java              # Represents a Truck with load capacity
+        │── Garage.java             # Manages a collection of vehicles
+        │── GarageTest.java         # Main class for user interaction
+        └── DescriptionForThisProject.md              # Project documentation
+
+
+    Class Descriptions 🏗️
+        1️⃣ Vehicle (Abstract Class)
+            Base class for all vehicles.
+            Contains common attributes like ownerName, brand, model, year, color, and countryOfManufacture.
+            Defines an abstract method displayInfo(), which must be implemented by subclasses.
+        2️⃣ Car (Extends Vehicle)
+            Includes seat capacity and number of doors.
+            Overrides displayInfo() to show car-specific details.
+        3️⃣ Motorcycle (Extends Vehicle)
+            Adds attributes like engine capacity and gear count.
+            Overrides displayInfo() to show motorcycle-specific details.
+        4️⃣ Truck (Extends Vehicle)
+            Adds load capacity to represent trucks.
+            Overrides displayInfo() to show truck-specific details.
+        5️⃣ Garage (Manager Class)
+        Uses an ArrayList to store vehicles.
+            Implements:
+                addVehicle()
+                updateVehicle()
+                removeVehicle()
+                displayAllVehicles()
+                displayVehicleDetails()
+        6️⃣ GarageTest (Main Class)
+            Provides a menu-driven system using a Scanner for user input.
+            Allows users to perform actions like adding, updating, removing, and displaying vehicles.
+    Enhancements & Best Practices ✅
+        ✔️ Final Attributes: year and countryOfManufacture are final since they don't change after creation.
+        ✔️ Encapsulation: Private attributes with public getters/setters ensure data protection.
+        ✔️ Polymorphism: displayInfo() is overridden for different vehicle types.
+        ✔️ Data Validation: Improved input validation in GarageTest.java.
+        ✔️ Iterator for Removal: Uses an Iterator in removeVehicle() to prevent ConcurrentModificationException.
+    Sample Output 📌
+        ============================
+        Garage Management System
+        ============================
+        1. Add Vehicle
+        2. Update Vehicle
+        3. Remove Vehicle
+        4. Display Vehicles
+        5. Display Vehicle Details
+        6. Exit
+
+        Enter your choice (1-6): 1
+        Enter vehicle type (Car/Motorcycle/Truck): Car
+        Enter owner name: Abdul Baset
+        Enter model: Shass
+        Enter brand: Toyota
+        Enter year: 2020
+        Enter country of manufacture: Japan
+        Enter color: Red
+        Enter seat capacity: 2
+        Enter number of doors: 2
+        Vehicle added successfully!

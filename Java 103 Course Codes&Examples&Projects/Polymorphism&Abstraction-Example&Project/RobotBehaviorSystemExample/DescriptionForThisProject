@@ -1,0 +1,20 @@
+🚀 Robot Behavior System (Java OOP: Abstraction & Polymorphism)
+This project is a Java-based Robot Behavior System that demonstrates
+the core Object-Oriented Programming (OOP) concepts:
+    ✅ Abstraction (Using an abstract Robot class)
+    ✅ Polymorphism (Using method overriding for performTask())
+📂 Project Structure:
+    📁 RobotBehaviorSystemExample
+     ├── Robot.java            # Abstract base class for all robots
+     ├── CleaningRobot.java    # Subclass for cleaning functionality
+     ├── SecurityRobot.java    # Subclass for security functionality
+     ├── DeliveryRobot.java    # Subclass for delivery functionality
+     ├── RescueRobot.java      # Subclass for rescue functionality
+     ├── RobotTest.java        # Main class to test different robot types
+💡 Features
+     Uses abstraction to define a common Robot blueprint.
+     Implements polymorphism by overriding performTask() for different robot types.
+     Demonstrates best coding practices with proper encapsulation.
+     Ideal for beginners to understand Java OOP concepts.
+
+

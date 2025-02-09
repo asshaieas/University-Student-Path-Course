@@ -1,0 +1,66 @@
+Project Title: Person Information Management System
+    This project demonstrates a basic implementation of
+    Object-Oriented Programming (OOP) principles in Java,
+    focusing on user input validation, encapsulation, and data integrity.
+    The system allows users to input their personal details
+    such as name, age, gender, country, and city, while ensuring data
+    validity through getter and setter methods.
+Project Overview
+    This program uses the Person class to represent an
+    individual with the following attributes:
+        name (String)
+        age (int)
+        gender (String)
+        country (String)
+        city (String)
+    The program allows users to input these details through the console.
+    Input validation is incorporated to ensure correct data entry, including:
+        Age should be a non-negative number.
+        Gender must be either "Male" or "Female".
+        User input errors are handled using try-catch blocks and while
+        loops to prompt for valid input until it is received.
+    The Person class also demonstrates the concept of encapsulation by using
+    private fields and public getter and setter methods. The setter methods
+    perform validation before assigning values to the object's fields.
+    The toString() method provides a formatted output to display the
+    details of the Person object.
+Key Features
+    Input Validation:
+        Age validation: Ensures that the age is a non-negative integer.
+        Gender validation: Only accepts "Male" or "Female" inputs, with error
+        messages for invalid entries.
+    Encapsulation:
+        The use of private fields ensures that data is not directly accessed
+         or modified outside the Person class.
+        Getter and Setter methods provide controlled access to the fields.
+    Robust Error Handling:
+        Invalid inputs trigger appropriate error messages and prompts for re-entry.
+        IllegalArgumentException is used to enforce valid data entry for gender and age.
+    Formatted Output:
+        The toString() method provides a clean and readable output of
+        the Person object's details.
+Classes and Methods
+Person Class
+This class represents an individual and contains the following methods:
+    Constructor:
+        Initializes the object with values for name, age, gender, country, and city.
+        The constructor uses setter methods to validate age
+        and gender before assigning the values.
+    Getter Methods:
+        getName(), getAge(), getGender(), getCountry(), and
+        getCity() to retrieve the values of the respective attributes.
+    Setter Methods:
+        setName(String name) - Sets the name.
+        setAge(int age) - Validates and sets the age, ensuring it's non-negative.
+        setGender(String gender) - Ensures the gender is either "Male" or "Female".
+        setCountry(String country) - Sets the country.
+        setCity(String city) - Sets the city.
+    toString() Method:
+        Provides a readable string representation of the Person object.
+PersonTest Class (Main Program)
+The PersonTest class contains the main method, which:
+    Prompts the user to input personal details.
+    Validates the age and gender inputs.
+    Creates a new Person object with the provided details.
+    Displays the Person details using the toString() method.
+

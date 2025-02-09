@@ -1,0 +1,32 @@
+Bank Loan System Project 🚀
+A simple Java-based Loan Processing System that allows users to
+select and calculate loan details for Car Loan, Home Loan, and Personal Loan.
+
+
+
+Project Overview:
+This Bank Loan System is an interactive Java console application where users can:
+    1️⃣ Select a loan type (Car, Home, or Personal)
+    2️⃣ Input the loan amount, interest rate, and loan term (years)
+    3️⃣ Get calculated monthly payment using the loan amortization formula
+
+
+
+Key Features
+    ✅ Object-Oriented Design using Abstraction, Inheritance, and Polymorphism
+    ✅ Loan validation to prevent negative values
+    ✅ Uses Amortization Formula for loan calculations
+    ✅ User-friendly CLI (Command Line Interface)
+
+How It Works
+    The user selects the type of loan (Car, Home, or Personal).
+    The system takes user input for loan amount, interest rate, and term.
+    The system validates the input and prevents negative values.
+    The selected loan object is created using polymorphism.
+    The system calculates and displays the monthly payment.
+
+Technologies Used
+    Java (Core Java, OOP)
+    Scanner Class (User Input)
+    Math.pow() (Amortization Formula)
+    Abstraction and Inheritance (OOP Design)

@@ -1,0 +1,56 @@
+🚗 Vehicle Inheritance Example in Java
+    This example demonstrates object-oriented programming (OOP) concepts in Java,
+    focusing on inheritance, the super keyword, and the protected modifier.
+    It includes a Vehicle superclass and two subclasses:
+    Car and Truck. A TestVehicles class is used to test the implementation.
+📌 Concepts Covered:
+    ✅ Inheritance: Car and Truck extend Vehicle, inheriting its attributes and methods.
+    ✅ super Keyword: Used to call the parent class constructor in subclasses.
+    ✅ protected Modifier: Allows subclass access to brand, model, and speed attributes.
+    ✅ Method Overriding: displayInfo() is overridden in subclasses to display additional details.
+📂 Example Structure:
+VehicleExample/
+    │── Vehicle.java      # Base class with common properties
+    │── Car.java          # Subclass extending Vehicle (adds numDoors)
+    │── Truck.java        # Subclass extending Vehicle (adds cargoCapacity)
+    │── TestVehicles.java # Main class to test Vehicle, Car, and Truck
+
+🛠 Class Descriptions:
+    1️⃣ Vehicle.java (Base Class)
+        Defines common properties:
+        Attributes: brand, model, speed (protected).
+        Constructor: Initializes attributes.
+        Method: displayInfo() prints vehicle details.
+    2️⃣ Car.java (Subclass of Vehicle)
+        Extends Vehicle and adds:
+        Attribute: numDoors (number of doors).
+        Constructor: Calls super() to initialize parent attributes.
+        Method Override: displayInfo() includes numDoors.
+    3️⃣ Truck.java (Subclass of Vehicle)
+        Extends Vehicle and adds:
+        Attribute: cargoCapacity (in tons).
+        Constructor: Calls super() for initialization.
+        Method Override: displayInfo() includes cargoCapacity.
+    4️⃣ TestVehicles.java (Main Class)
+        Creates instances of Vehicle, Car, and Truck and calls displayInfo() for each.
+📌 Example Output:
+    Vehicle Details:
+    Brand: Toyota
+    Model: Corolla
+    Speed: 180 km/h
+    --------------------
+    Car Details:
+    Brand: Honda
+    Model: Civic
+    Speed: 220 km/h
+    Number of doors: 4
+    --------------------
+    Truck Details:
+    Brand: Ford
+    Model: F-150
+    Speed: 160 km/h
+    Cargo Capacity: 5.5 tons
+    --------------------
+🚀 How to Run
+Clone the repository or copy the files.
+Compile and run TestVehicles.java.

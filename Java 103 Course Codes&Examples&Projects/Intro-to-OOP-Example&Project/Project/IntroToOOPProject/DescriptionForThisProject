@@ -1,0 +1,23 @@
+Library Management System
+    This is a simple Library Management System built using Object-Oriented Programming
+    (OOP) concepts in Java. The project allows users to manage a library collection,
+    including adding books, removing books, and searching for books by their ISBN.
+    It demonstrates fundamental principles of OOP such as encapsulation, inheritance, and polymorphism.
+Features:
+    Add Books: Add new books to the library with details like title, author, price, and ISBN.
+    Remove Books: Remove books from the library using their ISBN.
+    Search Books by ISBN: Find books in the library using their ISBN and display their details.
+    Display All Books: Display all the books currently in the library.
+Project Structure:
+    Book Class:
+        This class represents individual books in the library with attributes like title, author,
+        price, and ISBN. It includes getter and setter methods for these attributes,
+        along with a custom toString() method to display book details.
+    Library Class:
+        This class represents the library, managing a collection of books.
+        It provides methods to add, remove, and search books.
+        The library's collection of books is stored in an ArrayList.
+    LibraryBookTest Class:
+        This is the main class where the library is tested.
+        It demonstrates how to create books, add them to the library,
+        remove books using ISBN, and search for books.

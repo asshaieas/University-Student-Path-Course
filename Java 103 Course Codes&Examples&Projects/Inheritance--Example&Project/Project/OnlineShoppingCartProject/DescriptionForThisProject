@@ -1,0 +1,42 @@
+🛒 Online Shopping Cart Project
+    📌 Overview
+    The Online Shopping Cart Project is a Java-based application designed
+    to simulate an e-commerce shopping experience. It allows users to add,
+    remove, and manage different types of products in a virtual shopping cart.
+    This project demonstrates object-oriented programming (OOP) concepts such
+    as inheritance, encapsulation, and polymorphism while implementing
+    user interaction through a console-based interface.
+🚀 Features
+    Product Management
+        Add and remove products dynamically.
+        Display details of available products.
+        Support for multiple product categories.
+    Product Categories
+        General Products – Basic product attributes like name, price, and stock quantity.
+        Electronics – Includes an additional warranty period attribute.
+        Clothing – Includes size, color, gender, brand, and type.
+    User Interaction
+        Console-based menu for intuitive product management.
+        Input validation to prevent incorrect data entry.
+
+🏗️ Tech Stack
+    Programming Language: Java
+    Paradigm: Object-Oriented Programming (OOP)
+    Data Structure: ArrayList (for managing the shopping cart)
+    User Input Handling: Scanner class
+📂 Project Structure
+OnlineShoppingCartProject/
+    │── Product.java        # Base class for products
+    │── Electronics.java    # Subclass for electronics products
+    │── Clothing.java       # Subclass for clothing products
+    │── ShoppingCart.java   # Manages product addition, removal, and display
+🔍 OOP Concepts Used
+    Encapsulation: Private/protected fields with getter and setter methods.
+    Inheritance: Electronics and Clothing classes extend the base Product class.
+    Polymorphism: Overridden toString() method for customized product descriptions.
+🛠️ Future Enhancements
+    Implement GUI-based interaction for better user experience.
+    Add a payment system with checkout functionality.
+    Integrate a database for persistent storage.
+Thank for reading 🔰📗😍🧠
+--------------------------------------------

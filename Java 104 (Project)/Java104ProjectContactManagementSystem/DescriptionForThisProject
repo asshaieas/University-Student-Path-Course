@@ -1,0 +1,31 @@
+📞 Contact Management System
+    The Contact Management System is a Java-based application designed to help
+    users store, manage, and organize their contacts efficiently.
+    This system provides essential CRUD operations (Create, Read,
+    Update, Delete) while ensuring data validation and persistent storage in a text file.
+✨ Key Features
+    ✔️ Add Contact – Create a new contact with name, phone number, and email.
+    ✔️ Update Contact – Modify an existing contact’s phone number and email while keeping the name unchanged.
+    ✔️ Delete Contact – Remove a contact from the list using their name.
+    ✔️ Search Contact – Find and display a contact by name.
+    ✔️ List All Contacts – View all saved contacts in a structured format.
+    ✔️ Persistent Storage – Contacts are stored in a file and automatically reloaded when the program starts.
+    ✔️ Data Validation – Ensures that name, phone number, and email are properly formatted and non-empty.
+📂 Project Structure
+    Java104ProjectContactManagementSystem
+    │── Contact.java        # Defines the Contact class with validation
+    │── ContactManager.java # Handles CRUD operations for managing contacts
+    │── ContactStorage.java # Manages file storage (saving and loading contacts)
+    │── ContactTest.java    # CLI-based interface for user interaction
+
+💡 Future Enhancements (🤓🤓🤓)
+    🚀 GUI Interface – Upgrade to a Java Swing/JavaFX graphical interface.
+    🚀 Database Integration – Store contacts in a MySQL or SQLite database instead of a text file.
+    🚀 Export/Import Feature – Allow users to export contacts as CSV for easy backup.
+    🚀 Cloud Synchronization – Enable synchronization with cloud storage for access across devices.
+
+This project is perfect for beginners learning Java, practicing file handling
+, and object-oriented programming (OOP) concepts.
+
+
+
