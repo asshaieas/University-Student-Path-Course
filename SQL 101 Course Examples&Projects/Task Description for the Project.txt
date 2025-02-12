@@ -1,0 +1,56 @@
+Task Description
+Using what you have learned in this course, apply the following:
+
+Let’s assume there is a school named "Excellence Secondary School", and we need to create a centralized database that contains all information about teachers, students, and subjects.
+
+The database must store the following information:
+
+For each student:
+
+Student ID (serial number)
+Student name
+Date of birth
+Gender (M/F)
+Enrollment date
+Student email
+Academic level (1 to 6)
+Track (Scientific or Humanities)
+Cumulative GPA (out of 100)
+For each teacher:
+
+Teacher ID (serial number)
+Teacher name
+Date of birth
+Gender (M/F)
+Teacher email
+Office number
+For each subject:
+
+Subject ID (serial number)
+Subject name
+Requirements:
+✅ Use comments to clarify SQL commands.
+✅ Create the database.
+✅ Create the tables.
+✅ Display the available tables in the database.
+✅ Insert at least:
+
+30 students
+10 teachers
+6 subjects
+✅ Display the contents of all tables.
+✅ Display the student table contents:
+Sort rows in ascending order by student name.
+Give an alias to the "Student Name" field to shorten or clarify the column name.
+✅ Modify data:
+Update a student’s email.
+Update a teacher’s office number.
+✅ Modify table structure:
+Rename a table.
+Notes:
+ID refers to the serial number.
+Gender is represented as "M" (Male) or "F" (Female).
+Academic levels range from 1 to 6.
+Track can be either Scientific or Humanities.
+GPA is out of 100.
+This is your structured SQL practice! 🚀
