@@ -1,0 +1,10 @@
+# SQL Fundamentals
+This repository contains SQL examples covering table creation, operators, and best practices.
+
+## Topics Covered
+- Creating tables and adding constraints
+- Using `LIKE` for pattern matching
+- Removing duplicates with `DISTINCT`
+- Renaming columns with `AS`
+- Operators in SQL (Comparison, Logical, Arithmetic)
+- Copying data from one table to another

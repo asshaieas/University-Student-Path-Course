@@ -1,0 +1,16 @@
+Using what you've learned during this course, apply the following requirements. Note that this project is a continuation of the SQL Level 1 project.
+
+Requirements:
+Create a table for top-performing students from the students' table, including only those with a cumulative GPA higher than 90.
+Create a table for failing students from the students' table, including only those with a cumulative GPA below 60.
+Display the names of students whose names start with the letter 'A'.
+Display the names of students whose names have exactly four characters.
+Apply the aggregate functions AVG, MAX, and MIN to the student GPA with clear labels for the results.
+Display the names of top-performing students in level 6 who have a cumulative GPA of exactly 100.
+Display the students in level 1 whose ages are between 15 and 16.
+Display the number of students in level 2.
+Retrieve the distinct student tracks in the school without duplicates.
+Display the subject names with all letters in uppercase.
+Calculate the average GPA and round it down to the nearest integer using numeric functions.
+Update the gender values in the students' table, replacing 'F' with 'Female' and 'M' with 'Male' using string functions.
+Increase the GPA by 5 points for students whose cumulative GPA is below 60.
