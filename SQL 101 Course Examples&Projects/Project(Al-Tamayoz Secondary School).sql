@@ -66,11 +66,11 @@ INSERT INTO student_info VALUES
 (23, 'Ziad', '2002-02-03', 'M', '2009-09-25', 'ziad@sale.com', 4, 'Scientific', 92.90),
 (24, 'Huda', '2001-06-01', 'F', '2007-11-19', 'huda@sale.com', 1, 'Scientific', 96.10),
 (25, 'Said', '2001-01-27', 'M', '2009-08-04', 'said@sale.com', 5, 'Humanities', 91.35),
-(26, 'Ahmed', '2000-04-25', 'M', '2006-11-20', 'ahmed@sale.com', 4, 'Scientific', 94.60),
-(27, 'Lina', '2000-11-29', 'F', '2007-01-17', 'lina@sale.com', 2, 'Scientific', 91.10),
-(28, 'Tareq', '2002-09-06', 'M', '2010-04-12', 'tareq@sale.com', 3, 'Humanities', 89.30),
-(29, 'Jameela', '2000-01-19', 'F', '2005-08-22', 'jameela@sale.com', 6, 'Scientific', 93.12),
-(30, 'Imran', '2000-03-13', 'M', '2011-12-03', 'imran@sale.com', 1, 'Scientific', 97.45);
+(26, 'Ahmed', '2000-04-25', 'M', '2006-11-20', 'ahmed@sale.com', 4, 'Scientific', 56.60),
+(27, 'Lina', '2000-11-29', 'F', '2007-01-17', 'lina@sale.com', 2, 'Scientific', 58.10),
+(28, 'Tareq', '2002-09-06', 'M', '2010-04-12', 'tareq@sale.com', 3, 'Humanities', 45.30),
+(29, 'Jameela', '2000-01-19', 'F', '2005-08-22', 'jameela@sale.com', 6, 'Scientific', 54.12),
+(30, 'Imran', '2000-03-13', 'M', '2011-12-03', 'imran@sale.com', 1, 'Scientific', 55.45);
 
 -- Insert teacher information into the teacher_info table
 INSERT INTO teacher_info VALUES
